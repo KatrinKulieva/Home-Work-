@@ -1,0 +1,41 @@
+HW_1
+Linux terminal (GitBash) comands
+
+1. pwd
+2. mkdir Homework
+3. cd Homework
+4. mkdir HW1 HW2 HW3
+5. cd HW1
+6. touch hw.txt hw1.txt hw2.txt hw.json hw1.json
+7. mkdir Homework Homework1 Homework2
+8. ls -la
+9. cat > hw.txt
+10. great home work
+11. Ctrl+C
+12. cd ..
+13. mv HW1/hw.txt HW2
+14. cp HW2/hw.txt HW1
+15. find . -name Hw
+16. tail -f HW1/hw.txt (В файле внести текстовые изменения, нажать сохранить, в терминале появились введенные значения с файла)
+17. head -2 HW1/hw.txt
+18. tail -3 HW1/hw.txt
+19. less HW1/hw.txt
+20. date
+
+Задание * :
+
+1) curl http://162.55.220.72:5005/terminal-hw-request
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   237  100   237    0     0   1367      0 --:--:-- --:--:-- --:--:--  1377{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal: http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
+
+2) nano script.sh
+
+   cd Homework
+   mkdir HW1 HW2 HW3
+   cd HW1
+   touch hw.txt hw1.txt hw2.txt hw.json hw1.json
+   mkdir Homework Homework1 Homework2
+   ls -la
+  
+   chmod +x ./script.sh
